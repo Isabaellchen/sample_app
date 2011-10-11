@@ -1,6 +1,4 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
-
   get "pages/home"
 
   get "pages/contact"
@@ -56,6 +54,7 @@ SampleApp::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  resources :users
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
